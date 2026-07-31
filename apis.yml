@@ -1,8 +1,24 @@
 aid: numa
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/numa.png
 name: Numa
-description: 'Numa is a company surfaced as a portfolio company of costanoa-ventures, threshold-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: vertical-ai. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Numa is the AI Operating System for car dealerships. Its voice AI and messaging
+  platform answers dealership calls and texts, connects directly to the DMS (CDK, Tekion,
+  Reynolds & Reynolds) with roughly 90% DMS coverage, books service appointments, and
+  coordinates the service lane and fixed operations. Used by over 1,300 dealerships, Numa
+  reports cutting average customer response time from 23 hours to under 10 minutes and
+  lifting repair-order dollars per advisor. Numa publishes no public API or developer
+  portal; integrations are delivered through native DMS, CRM, and scheduler connectors.'
 url: https://raw.githubusercontent.com/api-evangelist/numa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Vertical Ai
+- Automotive
+- Artificial Intelligence
+- Voice AI
+- Dealership
+- Customer Communication
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/numa-domain-security.yml
 - type: Website
   url: https://numa.com
+- type: Blog
+  url: https://numa.com/blog
+- type: Support
+  url: mailto:support@numa.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
