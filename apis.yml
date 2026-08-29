@@ -31,6 +31,9 @@ description: 'Numa is the AI Operating System for car dealerships. Its voice AI 
   lifting repair-order dollars per advisor. Numa publishes no public API or developer
   portal; integrations are delivered through native DMS, CRM, and scheduler connectors.'
 url: https://raw.githubusercontent.com/api-evangelist/numa/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Numa publishes no public API or developer portal; integrations are delivered through native DMS, CRM, and scheduler connectors."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
