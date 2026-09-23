@@ -1,0 +1,27 @@
+# Front Door AI Index — numa — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: numa
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: numa.com
+  final_host: numa.com
+  ownership: own
+  owner: numa
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 26
+  host_score: 26
+  density: 15.25
+  words: 1705
+  tiers:
+    agentic: 4
+    core: 22
+    model: 0
+  ambiguous: 4
+  top_terms:
+    AI: 22
+    AI agent: 4
+    agent: 4
